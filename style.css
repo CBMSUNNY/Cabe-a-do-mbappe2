@@ -1,12 +1,12 @@
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    background:linear-gradient(180deg,#050b16,#000);
-    color:#fff;
+    background:linear-gradient(180deg,#050b16,#000000);
+    color:white;
 }
 
 header{
-    background:linear-gradient(90deg,#001f3f,#003f7f);
+    background:linear-gradient(90deg,#001f3f,#004080);
     padding:40px;
     text-align:center;
     border-bottom:4px solid #f1c40f;
@@ -35,11 +35,11 @@ nav a:hover{
     background:#0b1628;
     padding:30px;
     border-radius:15px;
-    box-shadow:0 0 15px rgba(0,0,0,.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.9);
     border-left:6px solid #f1c40f;
 }
 
-h1, h2{
+h1{
     color:#f1c40f;
 }
 
