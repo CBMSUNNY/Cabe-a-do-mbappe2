@@ -77,3 +77,36 @@ a:hover{
 .destaque {
   border-left: 6px solid gold;
 }
+.elenco-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.player {
+  background: linear-gradient(145deg, #001d3d, #000814);
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #1e90ff;
+}
+
+.player h3 {
+  color: gold;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.player span {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.imagem-time img {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 12px;
+  border: 3px solid gold;
+}
